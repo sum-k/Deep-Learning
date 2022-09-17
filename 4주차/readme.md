@@ -119,8 +119,7 @@
 경사 하강법보다 빠른 최적화 알고리즘을 알기 위해 필요한 개념(주요 구성요소)
 
 ![Untitled 2](https://user-images.githubusercontent.com/98869607/190849492-1307266c-c730-49d7-b442-07bd822c3fc5.png)
-
-               ⇒ 노이즈 존재
+⇒ 노이즈 존재
 
 Local average or Moving average 계산?
 
