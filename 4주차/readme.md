@@ -118,7 +118,7 @@
 
 경사 하강법보다 빠른 최적화 알고리즘을 알기 위해 필요한 개념(주요 구성요소)
 
-![Untitled](4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%203a4b99a1d8fb44a9a08977f8b090c273/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/98869607/190849492-1307266c-c730-49d7-b442-07bd822c3fc5.png)
 
                ⇒ 노이즈 존재
 
@@ -149,7 +149,7 @@ Local average or Moving average 계산?
     
     : 기온 변화에 빠르게 적응
     
-    ![Untitled](4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%203a4b99a1d8fb44a9a08977f8b090c273/Untitled%203.png)
+    ![Untitled 3](https://user-images.githubusercontent.com/98869607/190849494-f3a9fec5-8d31-4583-85e2-c01bd6823fc1.png)
     
     $\beta$ 값이 클수록 선이 더 부드러워 진다. (더 많은 날짜의 기온의 평균을 이용하기 때문)
     
@@ -166,7 +166,7 @@ $\frac{V_t}{1-\beta^t} = \beta\ V_{t-1} + (1-\beta)\ \theta_t$
 
 ⇒ 초반부 지수 가중 평균 값 보정,,
 
-![Untitled](4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%203a4b99a1d8fb44a9a08977f8b090c273/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/98869607/190849496-2022f314-93c4-4bcf-af06-d4bae7e1f779.png)
 
 보라색 그래프 → 초록색 그래프
 
@@ -181,7 +181,7 @@ $\frac{V_t}{1-\beta^t} = \beta\ V_{t-1} + (1-\beta)\ \theta_t$
     Gradient Descent의 이동 방향과 속도가 유지될 수 있도록 경향성 추가
     
 
-![Untitled](4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%203a4b99a1d8fb44a9a08977f8b090c273/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/98869607/190849498-5dbf733f-4a11-47e4-8ba3-ac1a5fd917cc.png)
 
 ⇒ 랜덤한 진동 
 
@@ -239,4 +239,4 @@ $\frac{V_t}{1-\beta^t} = \beta\ V_{t-1} + (1-\beta)\ \theta_t$
     
 2. 이산 계단
     
-    ![Untitled](4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%203a4b99a1d8fb44a9a08977f8b090c273/Untitled%206.png)
+    ![Untitled 6](https://user-images.githubusercontent.com/98869607/190849499-f110cc84-ee20-49e0-9803-b5bcbef71e6b.png)
