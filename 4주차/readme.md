@@ -44,12 +44,12 @@
 
 - 배치 경사 하강법에서는 모든 반복마다 비용이 감소해야한다.
     
-    ![Untitled](4주차 3a4b99a1d8fb44a9a08977f8b090c273/Untitled 1.png)
+    ![Untitled](https://user-images.githubusercontent.com/98869607/190849500-17ee7d61-d204-44f8-a62f-984bf33b3cfb.png)
     
 
 - 미니 배치 경사 하강법에서는 비용의 전체적인 흐름은 감소하나 약간의 노이즈가 발생될 수 있다.
     
-    ![Untitled](./4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%203a4b99a1d8fb44a9a08977f8b090c273/Untitled%201.png)
+    ![Untitled 1](https://user-images.githubusercontent.com/98869607/190849491-62383dad-b353-4228-a2b6-6b408d9bf7df.png)
     
     - 잘못 표시된 샘플이 있다든지의 이유로 진동이 일어날 수 있다.
 
