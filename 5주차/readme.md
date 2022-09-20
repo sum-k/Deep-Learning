@@ -72,16 +72,16 @@
 
 Given some intermediate values in NN,  $z^{(1)}, … , z^{(m)}$ 
 
-$\mu = \frac{1}{m} \sum_i z^{(i)} \\  
-\sigma^2 = \frac{1}{m} \sum_i (z_i - \mu)^2 \\  
-z^{(i)}_{norm} = \frac{x^{(i)} - \mu}{\sqrt {\sigma^2 + \epsilon}}$             
+$\mu = \frac{1}{m} \sum_i z^{(i)}$  
+$\sigma^2 = \frac{1}{m} \sum_i (z_i - \mu)^2$  
+$z^{(i)}_{norm} = \frac{x^{(i)} - \mu}{\sqrt {\sigma^2 + \epsilon}}$             
 
 ⇒ 은닉 유닛은 다양한 분포를 가져야하기 때문에 항상 평균 0, 표준편차 1을 갖는 것이 좋지만은 않다.
 
 **< 하나의 은닉층에 배치 정규화를 구현하기>** 
 
-$\tilde{z}^{(i)} = \gamma *z^{(i)}_{norm} + β , \\ 
-\gamma \ and \ \beta$ are learnable parameters of model
+$\tilde{z}^{(i)} = \gamma *z^{(i)}_{norm} + β ,$
+$\gamma \ and \ \beta$ are learnable parameters of model
 
 ⇒ 평균과 분산이 두 변수 $\gamma, \ \beta$ 에 의해 조절된다.
 
