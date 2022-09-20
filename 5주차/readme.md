@@ -52,13 +52,13 @@
     - 며칠, 몇 주에 걸쳐 매일 모델을 돌보며 학습시키는 것
     - 성능을 잘 지켜보다가 학습 속도를 조금씩 바꾸기
     
-    ![Untitled](5%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%2068ae35e8a96d4b09bbb5537be8c70e76/Untitled.png)
+    ![Untitled](https://user-images.githubusercontent.com/98869607/191202954-1cd08e49-13b4-401e-af27-52f2b6d56305.png)
+    
     
 2. **Training many models in parallel**
     - 서로 다른 모델을 동시에 학습시키기
     
-    ![Untitled](5%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%2068ae35e8a96d4b09bbb5537be8c70e76/Untitled%201.png)
-    
+    ![Untitled 1](https://user-images.githubusercontent.com/98869607/191202936-790d9fc0-b3c7-452b-877f-5e042dd91ea2.png)
 
 # ♥ Normalizing Activations in a Network
 
@@ -88,7 +88,7 @@ $\tilde{z}^{(i)} = \gamma *z^{(i)}_{norm} + β , \\ \gamma \ \& \ \beta$ are lea
 
 **Adding Batch Norm to a network** 
 
-![Untitled](5%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%2068ae35e8a96d4b09bbb5537be8c70e76/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/98869607/191202940-c9f7623f-5b3b-4645-ac40-80ed8db86bcf.png)
 
 $x$ -  $w^{[1]} , b^{[1]}$ → $z^{[1]}$ - Batch Norm(BN) (평균 0, 분산 1을 갖도록 정규화 한 뒤,  $\gamma^{[1]},\beta^{[1]}$ 를 이용해 값을 조정해주는 것) → $\tilde{z}^{[1]}$ → $a^{[1]}$ = $g^{[1]}(\tilde{z}^{[1]})$
 
@@ -146,7 +146,7 @@ Update parameters
 
 ⇒ 각각 독립된  $\mu$ 와  $\sigma ^ 2$ 의 추정치를 사용하기
 
-![Untitled](5%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%2068ae35e8a96d4b09bbb5537be8c70e76/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/98869607/191202943-b830df06-a75a-4961-8355-f699979d259f.png)
 
 # ♥ Softmax Regression
 
@@ -164,7 +164,8 @@ Softmax regression : 클래스가 둘 이상인 경우 로지스틱 회귀를 �
 
 Gradient descent with softmax
 
-![Untitled](5%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%2068ae35e8a96d4b09bbb5537be8c70e76/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/98869607/191202948-b08045ca-25a7-400a-9bab-1ee9f2e7883a.png)
+
 
 # ♥ The Problem of Local Optima
 
